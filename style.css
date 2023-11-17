@@ -73,22 +73,21 @@ img.header_logo {
 
 /* <--Hero --> */
 
-#home-hero{
-    margin-top: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .hero {
+    margin-top: 75px;    
     background-color: rgb(255, 196, 54);
     display: flex;
     align-items: center;
-    padding-right: 100vh;
-    padding-left: 100vh;
+    justify-content: center;
     height: 350px;
     gap: 35px;
-    width: 900px;
+    width: 100%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 615px;
 }
 
 img.hero-img {
