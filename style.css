@@ -141,12 +141,13 @@ p.article-date {
     margin-top: 0;
     background-color: #1F2937;
     color: azure;
-    padding: 5px 5px 5px 10px;
+    padding: 5px 15px 5px 10px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     font-weight: 200;
     font-size: 0.9em;
+    text-align: right;
 }
 
 h2.article-title {
@@ -180,6 +181,32 @@ p.article-text {
     padding: 12px;
     display: flex;
     justify-content: center;
+}
+
+/* <--login --> */
+
+#model-login {
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 50px;
+    padding: 20px 25px;
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: rgb(255, 196, 54);
+
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+h3.login-title {
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+input {
+    line-height: 2em;
 }
 
 /* <--footer --> */
